@@ -27,6 +27,7 @@ class Login extends React.Component {
   render() {
     return (
       <Form>
+        <h1 className="login"> Login </h1>
         {this.state.loginFailed ? <span> Login Failed </span> : <span />}
         <Input type="text" placeholder="email" id="email" />
         <Input type="password" placeholder="password" id="password" />
